@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"c58df1d56925a48a","type":"file","file":"canvas/tables/conn_invoice_status.md","x":11,"y":127,"width":631,"height":315},
+		{"id":"03cc2e243ba78a34","type":"file","file":"canvas/tables/tbl_invoices.md","x":-669,"y":87,"width":625,"height":396},
+		{"id":"d9132729171bbe06","type":"file","file":"canvas/tables/view_invoice_items.md","x":-1290,"y":60,"width":564,"height":450},
+		{"id":"bc0e0893d306fdb2","type":"file","file":"canvas/tables/tbl_invoice_status_types.md","x":37,"y":-440,"width":580,"height":400},
+		{"id":"78d3ad9dec9ff740","type":"file","file":"canvas/tables/tbl_payment_types.md","x":-635,"y":-805,"width":557,"height":279},
+		{"id":"e2c94b09c6f37149","type":"file","file":"canvas/tables/tbl_payments.md","x":-612,"y":-400,"width":511,"height":360},
+		{"id":"dde4089676a41a0b","type":"text","text":"Needs a rework, as currently there is ONE invoice, and multiple mayments per invoice. In the real world, this would be an order, with multiple invoices to multiple people, whom each can have multiple payments per invoice","x":-987,"y":689,"width":487,"height":211,"color":"6"}
+	],
+	"edges":[
+		{"id":"ff3b151e24373dd3","fromNode":"78d3ad9dec9ff740","fromSide":"bottom","toNode":"e2c94b09c6f37149","toSide":"top"},
+		{"id":"3b0e8c712e1c0238","fromNode":"e2c94b09c6f37149","fromSide":"bottom","toNode":"03cc2e243ba78a34","toSide":"top"},
+		{"id":"058c88afa9b3fdec","fromNode":"bc0e0893d306fdb2","fromSide":"bottom","toNode":"c58df1d56925a48a","toSide":"top"},
+		{"id":"ec00c5fd1bda3583","fromNode":"03cc2e243ba78a34","fromSide":"right","toNode":"c58df1d56925a48a","toSide":"left"},
+		{"id":"37bd59ffcb0ab53c","fromNode":"d9132729171bbe06","fromSide":"right","toNode":"03cc2e243ba78a34","toSide":"left"}
+	]
+}

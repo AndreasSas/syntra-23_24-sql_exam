@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Setup" type="DatabaseScript" editBeforeRun="true">
+    <script-file value="$PROJECT_DIR$/sql/setup/1-setup.sql" />
+    <script-file value="$PROJECT_DIR$/sql/setup/2-data_seeding.sql" />
+    <script-file value="$PROJECT_DIR$/sql/setup/3-functions.sql" />
+    <script-file value="$PROJECT_DIR$/sql/setup/4-procedures.sql" />
+    <script-file value="$PROJECT_DIR$/sql/setup/5-views.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="188927a2-b446-45dd-9f8b-a1f164c2b72a" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"52cd64210041bc91","type":"file","file":"canvas/tables/tbl_countries.md","x":-640,"y":-120,"width":640,"height":420},
+		{"id":"0bea1c7343afc2da","type":"file","file":"canvas/tables/tbl_towns.md","x":80,"y":-107,"width":500,"height":334},
+		{"id":"eee611137053e1e5","type":"file","file":"canvas/tables/tbl_addresses.md","x":720,"y":-107,"width":540,"height":340}
+	],
+	"edges":[
+		{"id":"7d1736df2efa04ec","fromNode":"52cd64210041bc91","fromSide":"right","toNode":"0bea1c7343afc2da","toSide":"left"},
+		{"id":"fba1a15a0bfea033","fromNode":"0bea1c7343afc2da","fromSide":"right","toNode":"eee611137053e1e5","toSide":"left"}
+	]
+}

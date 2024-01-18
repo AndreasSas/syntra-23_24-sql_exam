@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"6ef0b360acf66980","type":"file","file":"canvas/tables/tbl_inbound_invoice_status_types.md","x":466,"y":-780,"width":540,"height":420},
+		{"id":"eaded3216cf642af","type":"file","file":"canvas/tables/conn_inbound_invoice_status.md","x":436,"y":-121,"width":600,"height":330},
+		{"id":"b4b62bde981d9b0e","type":"file","file":"canvas/tables/tbl_inbound_invoices.md","x":-260,"y":-86,"width":499,"height":261}
+	],
+	"edges":[
+		{"id":"bbf6b834ae00ede2","fromNode":"6ef0b360acf66980","fromSide":"bottom","toNode":"eaded3216cf642af","toSide":"top"},
+		{"id":"eccba10aa3945d81","fromNode":"eaded3216cf642af","fromSide":"left","toNode":"b4b62bde981d9b0e","toSide":"right"}
+	]
+}

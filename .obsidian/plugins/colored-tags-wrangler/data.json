@@ -1,0 +1,97 @@
+{
+  "TagColors": {
+    "ColorPicker": {
+      "845a0737-5f81-4eaa-b6ab-117090e887e4": {
+        "tag_name": "table",
+        "color": {
+          "r": 138,
+          "g": 183,
+          "b": 255
+        },
+        "background_color": {
+          "r": 115,
+          "g": 115,
+          "b": 115
+        },
+        "luminance_offset": 0.15
+      },
+      "13c19120-d464-4690-9af9-fd132e9dfe86": {
+        "tag_name": "conn",
+        "color": {
+          "r": 92,
+          "g": 255,
+          "b": 133
+        },
+        "background_color": {
+          "r": 115,
+          "g": 115,
+          "b": 115
+        },
+        "luminance_offset": 0.15
+      },
+      "7be0b2ab-767e-4551-a2b8-2bcc681e6c17": {
+        "tag_name": "view",
+        "color": {
+          "r": 254,
+          "g": 144,
+          "b": 144
+        },
+        "background_color": {
+          "r": 115,
+          "g": 115,
+          "b": 115
+        },
+        "luminance_offset": 0.15
+      }
+    },
+    "EnableMultipleTags": true,
+    "EnableSeparateBackground": true,
+    "EnableSeparateLuminanceOffset": true,
+    "EnableDarkLightDifference": true,
+    "EnableBackgroundOpacity": false,
+    "Values": {
+      "BackgroundOpacity": 0.45,
+      "LuminanceOffset": 0.15
+    }
+  },
+  "FolderNote": {
+    "Enable": false,
+    "FolderTagLinks": {},
+    "EnableAutoDetect": true,
+    "Values": {
+      "ForceImportant": true,
+      "BorderRadius": "12px",
+      "Padding": "5px"
+    }
+  },
+  "Kanban": {
+    "Enable": true,
+    "EnableCards": false,
+    "EnableLists": false,
+    "HideHashtags": false,
+    "Values": {
+      "CardBackgroundOpacity": 0.2,
+      "CardBorderOpacity": 0.3,
+      "ListBackgroundOpacity": 0.2,
+      "ListBorderOpacity": 0.3
+    }
+  },
+  "Debug": {
+    "Enable": false
+  },
+  "CSS": {
+    "Enable": false,
+    "TagsNoWrap": false,
+    "TagsNoWrapText": "pre"
+  },
+  "Canvas": {
+    "Enable": true,
+    "Values": {
+      "CardBorderOpacity": 0.3,
+      "CardBackgroundLuminanceOffset": 0.15
+    }
+  },
+  "Info": {
+    "SettingsVersion": 9
+  }
+}
